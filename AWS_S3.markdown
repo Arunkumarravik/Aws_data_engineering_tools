@@ -64,5 +64,14 @@
 
     after deletion operation of the file 1 :same file will be stored as type of delete mark - version id
 
+### S3 replication:
 
+    -->CRR = Cross region replication -- asynchronous repliaction -- Lower latency
 
+    -->SRR = same region replication -- live replication
+
+    Replicates only when the replication is on
+
+    if you want to replicate the older files you want to use s3 batch replications
+
+    
