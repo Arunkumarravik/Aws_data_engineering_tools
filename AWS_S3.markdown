@@ -33,3 +33,36 @@
     value - data stored in that file
 
     Max-size - (5TB) if size > TB => do multi-part upload
+
+### Security:
+
+    User-Based : Via Iam Policies
+
+    Resoure-Based: 
+
+        Bucket-policies : applicable to cross accounts
+
+        Object Access control List : Fine Grain
+ 
+        Bucket Access Control list : Less common  
+
+### Versioning:
+
+    Before enabling Versioning:
+
+    In current Bucket : file 1
+
+    after modification of the file 1 : It gets overwritten
+
+    after deletion operation of the file 1 : It gets permanently deleted
+
+    After Enabling Versioning:
+
+    In current bucket : file1
+
+    after modification of the file 1 : New file with the Particular version Id got added
+
+    after deletion operation of the file 1 :same file will be stored as type of delete mark - version id
+
+
+
