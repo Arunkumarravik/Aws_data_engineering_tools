@@ -73,5 +73,17 @@
     Replicates only when the replication is on
 
     if you want to replicate the older files you want to use s3 batch replications
+### S3 storage class:
+
+    durability ==> out of 10 million files we will loss 1 file in 10000 years in s3**,99.9.. 11 9's **
+
+    Availability ==> not avilable for 53 minutes a year 
+
+    glacier=> It is used for archiving / backup purpose
+
+    **for a good understanding you can reefer to the Aws S3 UI , by viewing the properties of the Object**
 
     
+
+
+
