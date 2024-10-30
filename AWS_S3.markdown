@@ -82,8 +82,32 @@
     glacier=> It is used for archiving / backup purpose
 
     **for a good understanding you can reefer to the Aws S3 UI , by viewing the properties of the Object**
+### S3 Event Notification:
+
+    Whenever a particular file get loads into the s3 bucke t we can automatically send those files to the following destination:
+
+        ==> Amazon SNS topic
+
+        ==> Amazon lambda function
+
+        ==> Amazon SQS
+
+        using the help of Resoure based access policy
+
+        ==> and it also can be integerated with the amazon event bridge --> an able to send the files to the 18 different services
+
+### AWS back up:
+        ==> Supports back up aross various AWS back up services
+
+        ==> Supports cross account back up
+
+        ==> Supports Cross region back up
+
+        ==>AWS back up Vault Lock --> ENforce WORM (Write ONCE read many)
 
     
+
+
 
 
 
